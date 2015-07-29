@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Date: 14-9-12 */
+/* Time: 上午8:29 */
+.wu_file_upload_btn {
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    background: #00b7ee;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.wu_file_upload_btn:hover {
+    background: #00a2d4;
+}
+
+.wu_file_list{
+    overflow: auto;
+}

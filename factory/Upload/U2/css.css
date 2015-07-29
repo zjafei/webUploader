@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Date: 14-9-12 */
+/* Time: 上午8:29 */
+@import '../U1/css.css';
+
+.wu_file_status_bar {
+    font-size: 14px;
+    position: relative;
+    min-height: 37px;
+}
+
+.wu_file_pick_more {
+    overflow: hidden;
+    width: 86px;
+    height: 37px;
+}
+
+.wu_file_status_bar .wu_file_pick_more, .wu_file_status_bar .wu_file_upload_btn {
+    margin-left: 10px;
+    float: right;
+}
+.wu_file_status_bar .wu_file_ok_btn{
+    float: none;
+}
+

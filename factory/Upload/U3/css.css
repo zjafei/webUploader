@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Date: 14-9-12 */
+/* Time: 上午8:29 */
+@import '../U2/css.css';
+
+.wu_file_dnd {
+    border: 3px dashed #e6e6e6;
+    margin: 20px;
+    text-align: center;
+    padding-top: 178px;
+    background: url('image.png') no-repeat center 93px;
+    min-height: 350px;
+}
+
+.wu_introduction {
+    padding-top: 20px;
+    color: #ccc;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.webuploader-dnd-over {
+    border-color: #999;
+}

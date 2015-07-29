@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Date: 14-8-21 */
+/* Time: 下午2:59 */
+
+.wu_file_list, .wu_file_content {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wu_file_content {
+    overflow: auto;
+    font-size: 12px;
+    font-family: arial, helvetica, tahoma, verdana, sans-serif;
+}
+
+.wu_file_title {
+    float: left;
+    max-width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.wu_file_info {
+    float: right;
+}
+
+.wu_file_del {
+    right: 0;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    float: right;
+    cursor: pointer;
+    line-height: 12px;
+    color: #f60;
+    text-align: center;
+}
+
+.wu_file_del:after {
+    content: '×';
+}
+
+.wu_file_progress, .wu_file_progress_content {
+    height: 8px;
+}
+
+.wu_file_progress {
+    display: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wu_file_progress_content {
+    position: absolute;
+    left: 0;
+    top:0;
+    display: block;
+    width: 0;
+    background-color: #00b7ee;
+}

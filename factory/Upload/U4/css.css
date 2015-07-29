@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* User: Eric Ma  
+/* Date: 14-9-12 */
+/* Time: 上午8:29 */
+@import '../U3/css.css';
+
+.wu_info {
+    position: absolute;
+    font-size: 14px;
+    top: 7px;
+}
+
+.wu_file_status_bar .wu_file_progress, .wu_file_status_bar .wu_file_progress_content {
+    height: 16px;
+    border-radius: 3px;
+}
+
+.wu_file_status_bar .wu_file_progress {
+    position: absolute;
+    border: 1px #00b7ee solid;
+    width: 712px;
+    top: 9px;
+    text-align: center;
+    z-index: 1;
+}
+.wu_file_status_bar .wu_file_progress_txt{
+    position: relative;
+    z-index: 2;
+}
